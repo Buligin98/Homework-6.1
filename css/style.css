@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 94px;
+    background-color: #000000;
+    padding-top: 12px;
+}
+
+.nav-logo {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -99999999px;
+    margin-left: 100px;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul {
+    padding-left: 168px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+header li {
+    float: left;
+    margin-right: 15px;
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+header nav li:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.page-one__title {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 145px;
+    padding-bottom: 50px;
+    margin-left: 109px;
+}
+
+article {
+    clear: both;
+    width: 300px;
+    height: 244.96px;
+    border: 1px solid #000000;
+    margin-left: 109px;
+    position: relative;
+}
+
+.like {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.like:hover {
+    background-image: url(../img/like\ 2.png);
+    cursor: pointer;
+}
+
+.wave {
+    width: 300px;
+    height: 65px;
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    margin-top: 57px;
+}
+
+article h2 {
+    margin-top: 23px;
+    margin-left: 12px;
+}
+
+main p {
+    margin-top: 13px;
+    margin-left: 12px;
+}
+
+.more {
+    position: absolute;
+    font-size: 12px;
+    margin-top: 38px;
+    margin-left: -14px;
+}
+
+.more a {
+    color: #000000;
+}
+
+.two-category {
+    font-size: 24px;
+    margin-top: 22px;
+    margin-left: 109px;
+}
+
+.content-today {
+display: inline-block;
+}
+
+.content-today:hover .more {
+    border-bottom: 1px solid #000000;
+    width: 50%;
+}
+
+.two-category {
+    margin-top: 40px;
+    margin-left: 109px;
+}
+
+.content-latest {
+    display: inline-block;
+    margin-top: 75px;
+}
+
+.content-latest:hover .more {
+    border-bottom: 1px solid #000000;
+    width: 50%;
+}
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 354px;
+    background-color: #000000;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 27px;
+    margin-left: 645px;
+}
+
+.footer-nav {
+    padding-top: 26px;
+    padding-left: 518px;
+}
+
+footer nav li:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.rights {
+    margin-top: 50px;
+    margin-left: 645px;
+}
+
+.rights p {
+    color: #ffffff
+}
+
+.social {
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    top: 300px;
+    right: 0;
+    z-index: 2;
+    /* background-color: red; */
+}
+
+.fb {
+    width: 49px;
+    height: 49px;
+    background-image: url(../img/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 250px;
+    right: 0;
+    z-index: 2
+}
+
+.fb:hover {
+    background-image: url(../img/facebookhover.png);
+    cursor: pointer;
+}
+
+.inst {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 300px;
+    right: 0;
+    z-index: 2
+}
+
+.inst:hover {
+    background-image: url(../img/instagramhover.png);
+    cursor: pointer;
+}
+
+
+/* 2 pages */
+
+.two-pages__header {
+    margin-bottom: 145px;
+}
+
+.two-pages {
+    margin-left: 100px;
+}
+
+.page-two__title {
+    font-size: 24px;
+}
+
+.section-numb {
+    width: 380px;
+    height: 361px;
+    display: inline-block;
+    margin-left: 157px;
+}
+
+section:hover {
+    background-color: #c2c2c2;
+    box-shadow: -5px -5px 10px 10px #c2c2c2;
+    cursor: pointer;
+}
+
+.section-numb__content{
+    font-size: 18px;
+    margin-top: 51px;
+    display: inline-block;
+    margin-right: 157px;
+    letter-spacing: inherit;
+    word-spacing: 3px;
+    line-height: 120%
+}
+
+.pages-two__waves {
+    width: 300px;
+    height: 65px;
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    margin-left: 450px;
+}
+
+.section-alp {
+    margin-top: 108px;
+    display: inline-block;
+    margin-right: 44px;
+}
+
+.section-alp:last-child {
+    margin-right: 0;
+}
+
+.section-numb__content-small {
+    font-size: 18px;
+    margin-top: 51px;
+    display: inline-block;
+    margin-right: 44px;
+    letter-spacing: inherit;
+    word-spacing: 3px;
+    line-height: 120%
+}
+
+.pages-two__waves-two {
+    width: 300px;
+    height: 65px;
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    margin-left: 450px;
+    margin-top: 138px;
+}
+
+.end {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 107px;
+    margin-left: 430px;
+}
